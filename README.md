@@ -1,15 +1,27 @@
-# uduino-project
+<h1 align="center">uduino-project</h1>
 
 
 >这是一个通过unity与Arduino共同开发的简易三维迷宫游戏（附带自制手柄）。
 
-*游戏本体为unitychan.exe文件，是利用unity中现有的串口通信包以及素材文件生成的。
+## 软件部分
 
-*硬件部分，采用Arduino可编程单片机与元器件共同组成游戏手柄（Arduino部分的代码.ino在文件夹mpu中）
+游戏本体为unitychan.exe文件，是利用unity中现有的串口通信包以及素材文件生成的。
+
+<p align='center'><img width="300" src="" ></p>
+<h3 align="center">游玩画面</h3>
+
+硬件部分，采用Arduino可编程单片机与元器件共同组成游戏手柄（Arduino部分的代码.ino在文件夹mpu中）
+
+<p align='center'><img width="300" src="" ></p>
+<h3 align="center">手柄样式</h3>
 
 特殊的元器件主要包含一个温控电阻，一个滑动变阻器，一个触摸式开关，以及mpu6050模块（负责感知手柄各个方向上的倾斜角度）
+<p align='center'><img width="300" src="" ></p>
+<h3 align="center">连线示意图</h3>
 
->演示视频链接：https://www.bilibili.com/video/BV1hk4y1z7ww?spm_id_from=333.999.0.0
+## 演示视频
+
+[![Watch the video]()](https://www.bilibili.com/video/BV1hk4y1z7ww?spm_id_from=333.999.0.0)
 
 虽然在后期有尝试添加一些文案剧情使游戏形式更加完整（不过因为本人做不动了最后变成了有些尴尬的模样 咕咕咕）
 
